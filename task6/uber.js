@@ -38,4 +38,4 @@ getCalFare(){
 var customer=new Uber("Madhu","ayanavaram","Raj","Car","koyambedu",7.5,30,"readycase");
 customer.getCustomerDetails();
 var fare=customer.getCalFare();
-console.log(`Your payment amount: RS.${fare}`);
+console.log(`Your payment amount: RS.${fare.toFixed()}`);  
