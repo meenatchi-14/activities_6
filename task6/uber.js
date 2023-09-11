@@ -25,11 +25,11 @@ class Uber{
  }
 getCalFare(){
           const Base_Fare=30;
-        const Cost_per_minute=2;
+        const Cost_per_minute=12;
         const time_in_ride=this.timing;
-        const Cost_per_mile=10;
+        const Cost_per_mile=15;
         const ride_distance=this.Distance;
-        const Booking_Fee=10;
+        const Booking_Fee=50;
        return Base_Fare + (Cost_per_minute * time_in_ride) + (Cost_per_mile * ride_distance) + Booking_Fee;
 
     }
